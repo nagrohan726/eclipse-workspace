@@ -35,3 +35,17 @@
 2022-01-29 13:01:51,266 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@1f4d4cc2{HTTP/1.1, (http/1.1)}{0.0.0.0:51482}
 2022-01-29 13:01:51,274 [main] INFO  org.eclipse.jetty.server.Server - Started Server@7502f927{STARTING}[10.0.6,sto=0] @4717467ms
 2022-01-29 15:07:38,177 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-30 11:22:25,604 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-01-30 19:36:37,788 [Worker-171: reload maven project] ERROR o.e.m.c.u.i.actions.SelectionUtil - Can't close stream
+java.nio.file.FileAlreadyExistsException: C:\Users\Rohan\AppData\Local\Temp\maven-pom11556722523938860435.pom
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228)
+	at java.base/java.nio.file.Files.copy(Files.java:3160)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:268)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:643)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:963)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

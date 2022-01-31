@@ -2,15 +2,19 @@
 <modules>
   <module moduleId="org.eclipse.jst.jee.server:ListenerDemo" serverId="apache-tomcat-10.0.13 at localhost"/>
   <module moduleId="org.eclipse.jst.j2ee.server:sample" serverId="apache-tomcat-10.0.13 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:JSTLApp" serverId="apache-tomcat-10.0.13 at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:InterServletCommunication" serverId="apache-tomcat-10.0.13 at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:JSPErrorHandling" serverId="apache-tomcat-10.0.13 at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:FiltersDemo" serverId="apache-tomcat-10.0.13 at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:ServletBasics" serverId="apache-tomcat-10.0.13 at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:PreparedStatement" serverId="apache-tomcat-10.0.13 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:SecurityDemo" serverId="apache-tomcat-10.0.13 at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:JSPBasics" serverId="apache-tomcat-10.0.13 at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:JSPActions" serverId="apache-tomcat-10.0.13 at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:SessionManagement" serverId="apache-tomcat-10.0.13 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:CustomTag" serverId="apache-tomcat-10.0.13 at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:MVCDemo" serverId="apache-tomcat-10.0.13 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:ConnectionPooling" serverId="apache-tomcat-10.0.13 at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:PreInitDemo" serverId="apache-tomcat-10.0.13 at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:UserApp" serverId="apache-tomcat-10.0.13 at localhost"/>
 </modules>
