@@ -27,6 +27,9 @@
     <Manager pathname="SESSIONS.ser" />
     -->
     
-    <Resource name="myds" auth="Container" type="javax.sql.DataSource" driverClassName="com.mysql.cj.jdbc.Driver" url="jdbc:mysql://localhost/mydb" username="root" password="bolbona" />
-    
+<!--     <Resource name="myds" auth="Container" type="javax.sql.DataSource" driverClassName="com.mysql.cj.jdbc.Driver" url="jdbc:mysql://localhost/mydb" username="root" password="bolbona" />
+ -->
+ 
+ 	<Resource name="myds" type="javax.sql.DataSource" auth="Container" maxActive="50" maxIdle="20" maxWait="10000" username="root" password="bolbona" url="jdbc:mysql://localhost:3306/mydb" driverClassName="com.mysql.cj.jdbc.Driver" />    
+ 	
 </Context>
