@@ -1,28 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.mysql.cj.jdbc.Driver"/>
-    <fullyQualifiedTypeName name="jakarta.servlet.ServletConfig"/>
-    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-    <fullyQualifiedTypeName name="jakarta.servlet.ServletRequestListener"/>
-    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
-    <fullyQualifiedTypeName name="java.sql.SQLException"/>
-    <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.Statement"/>
-    <fullyQualifiedTypeName name="java.sql.Statement"/>
-    <fullyQualifiedTypeName name="javax.naming.InitialContext"/>
-    <fullyQualifiedTypeName name="javax.sql.DataSource"/>
-    <fullyQualifiedTypeName name="java.sql.Connection"/>
-    <fullyQualifiedTypeName name="com.rohan.cnp.util.ConnectionUtil"/>
-    <fullyQualifiedTypeName name="com.rohan.cnp.dao.CouponDAO"/>
-    <fullyQualifiedTypeName name="com.rohan.cnp.dao.ProductDAO"/>
-    <fullyQualifiedTypeName name="com.rohan.cnp.model.Coupon"/>
-    <fullyQualifiedTypeName name="com.rohan.cnp.model.Product"/>
-    <fullyQualifiedTypeName name="java.math.BigDecimal"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="javax.naming.Context"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.InitializingBean"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.DisposableBean"/>
-    <fullyQualifiedTypeName name="javax.annotation.PreDestroy"/>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/>
-    <fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
-    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
-</qualifiedTypeNameHistroy>
+<qualifiedTypeNameHistroy/>
