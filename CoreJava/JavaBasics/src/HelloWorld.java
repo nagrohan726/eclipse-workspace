@@ -25,6 +25,9 @@ public class HelloWorld {
 
 		HelloWorld.factorial(2);
 
+		System.out.println(h1);
+		System.out.println(h2);
+
 	}
 
 	public static void factorial(int n) {

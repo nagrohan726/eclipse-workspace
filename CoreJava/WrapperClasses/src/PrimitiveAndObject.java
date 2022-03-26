@@ -6,6 +6,8 @@ public class PrimitiveAndObject {
 		int x = 100;
 		Integer y = Integer.valueOf(x);
 		int z = y.intValue();
+
+		System.out.println(z);
 	}
 
 }

@@ -17,6 +17,7 @@ public class ScannerDemo {
 		System.out.println("Name: " + name);
 		System.out.println("Score: " + score);
 
+		scanner.close();
 	}
 
 }

@@ -8,6 +8,7 @@ public class ClassCastDemo {
 		Object object = new String();
 		if (object instanceof String) {
 			String s = (String) object;
+			System.out.println(s);
 		}
 	}
 

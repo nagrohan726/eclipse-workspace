@@ -8,6 +8,8 @@ public class ObjectAndString {
 		String s = y.toString();
 		Long z = Long.valueOf(s);
 
+		System.out.println(z);
+
 	}
 
 }

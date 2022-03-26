@@ -7,6 +7,7 @@ public class ImplicitCast {
 		int i = b;
 		System.out.println(i);
 		long l = i;
+		System.out.println(l);
 
 		char ch = 'A';
 		int x = ch;

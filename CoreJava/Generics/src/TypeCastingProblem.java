@@ -28,6 +28,9 @@ public class TypeCastingProblem {
 		String name1 = (String) l.get(1);
 //		String name2 = (String) l.get(2);
 
+		System.out.println(name);
+		System.out.println(name1);
+
 	}
 
 }

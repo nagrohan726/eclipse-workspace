@@ -6,5 +6,7 @@ public class PrimitiveAndString {
 		String s = Byte.toString(x);
 		byte y = Byte.parseByte(s);
 
+		System.out.println(y);
+
 	}
 }

@@ -18,5 +18,7 @@ public /* final */ class A {
 //		a1 = new A();
 //		a1.pi = 3.234f;
 
+		System.out.println(a1);
+
 	}
 }

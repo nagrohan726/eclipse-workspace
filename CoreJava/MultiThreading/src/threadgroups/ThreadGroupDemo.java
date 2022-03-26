@@ -23,5 +23,7 @@ public class ThreadGroupDemo {
 		Thread thread3 = new Thread(child, "Thread 3");
 		System.out.println(thread3.getPriority());
 
+		System.out.println(thread2);
+
 	}
 }

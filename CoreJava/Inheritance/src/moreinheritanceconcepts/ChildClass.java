@@ -15,5 +15,7 @@ public class ChildClass extends SuperClass {
 	public static void main(String[] args) {
 
 		ChildClass c = new ChildClass();
+
+		System.out.println(c);
 	}
 }

@@ -7,10 +7,10 @@ public class NullPointerDemo {
 		String s = "Hello";
 		System.out.println(s.length());
 
-		String n = null;
-		if (n != null) {
-			System.out.println(n.length());
-		}
+//		String n = null;
+//		if (n != null) {		// Dead Code
+//			System.out.println(n.length());
+//		}
 	}
 
 }

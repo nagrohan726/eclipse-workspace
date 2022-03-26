@@ -13,5 +13,7 @@ public class SumCalculator {
 			sum += num;
 		}
 		System.out.println("Sum is: " + sum);
+
+		scanner.close();
 	}
 }

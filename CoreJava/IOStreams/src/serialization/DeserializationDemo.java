@@ -19,6 +19,8 @@ public class DeserializationDemo {
 		System.out.println("Employee Salary: " + emp.salary);
 		System.out.println("Employee SSN: " + emp.ssn);
 
+		ois.close();
+
 	}
 
 }

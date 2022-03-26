@@ -7,6 +7,7 @@ public class AnyRunnableTest {
 //		AnyRunnable<String> s = new AnyRunnable<String>();	// not possible due to restriction
 
 		AnyRunnable<MyClass> t = new AnyRunnable<MyClass>();
+		System.out.println(t);
 
 	}
 

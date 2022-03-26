@@ -17,6 +17,7 @@ public class RunTimeBinding {
 		m2.shutdown();
 
 		MACBookAir m4 = (MACBookAir) m2;
+		System.out.println(m4);
 	}
 
 }

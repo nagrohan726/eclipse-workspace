@@ -6,17 +6,19 @@ public class AllInOne {
 		int x = 100;
 		String y = Integer.toString(x);
 
-		Integer b = new Integer(y);
-//		Integer b = Integer.valueOf(y);
+//		Integer b = new Integer(y);
+		Integer b = Integer.valueOf(y);
 
 		int z = b.intValue();
 
-		Integer c = new Integer(z);
-//		Integer c = Integer.valueOf(z);
+//		Integer c = new Integer(z);
+		Integer c = Integer.valueOf(z);
 
 		String d = c.toString();
 
 		int e = Integer.parseInt(d);
+
+		System.out.println(e);
 	}
 
 }

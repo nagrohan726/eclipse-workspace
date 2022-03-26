@@ -17,6 +17,16 @@ public class DataTypesDemo {
 //		int result = a + h;
 		byte result = (byte) (a + h);
 
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+		System.out.println(e);
+		System.out.println(f);
+		System.out.println(g);
+		System.out.println(h);
+		System.out.println(result);
+
 	}
 
 }

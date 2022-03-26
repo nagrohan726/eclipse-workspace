@@ -5,6 +5,7 @@ public class ExplicitCast {
 
 		int i = 100;
 		byte b = (byte) i;
+		System.out.println(b);
 
 		int x = 97;
 

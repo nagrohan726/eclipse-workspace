@@ -14,7 +14,8 @@ public class ArrayListDemo {
 //		list.add("Hello");
 
 		ArrayList<Integer> list = new ArrayList<Integer>();
-		list.add(new Integer(20));
+//		list.add(new Integer(20));
+		list.add(Integer.valueOf(20)); // alternative for above deprecation
 		list.add(10); // since java 1.5 because of autoboxing it's possible to add primitive type
 						// values as well
 		list.add((int) 30.45);

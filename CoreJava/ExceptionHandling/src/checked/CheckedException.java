@@ -2,6 +2,7 @@ package checked;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 
 public class CheckedException {
 
@@ -25,6 +26,11 @@ public class CheckedException {
 ////			System.out.println("File could not be found");
 //			e.printStackTrace();
 //		}
+		try {
+			fis.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 
 }
