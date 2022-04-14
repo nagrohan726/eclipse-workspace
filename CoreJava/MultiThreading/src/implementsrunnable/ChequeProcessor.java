@@ -1,11 +1,11 @@
 package implementsrunnable;
 
 public class ChequeProcessor implements Runnable {
-	
+
 	public static void main(String[] args) {
 
 		ChequeProcessor cp = new ChequeProcessor();
-		
+
 		Thread t = new Thread(cp);
 		t.start();
 	}
