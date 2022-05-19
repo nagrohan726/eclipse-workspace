@@ -16,7 +16,7 @@ public class GiftForGirlfriend {
 		for (int i = 0; i < T; i++) {
 
 			int N = scan.nextInt();
-			int G = scan.nextInt();
+			// int G = scan.nextInt();
 
 			scan.nextLine();
 			String priceInput = scan.nextLine();

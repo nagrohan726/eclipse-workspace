@@ -3,7 +3,7 @@ package com.rohan.personal;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Program {
+public class CountDuplicates {
 
 	public static void main(String[] args) {
 
