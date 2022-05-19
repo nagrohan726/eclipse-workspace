@@ -1,4 +1,4 @@
-package com.rohan.springboot.assignments.studentjpa;
+package com.rohan.springboot.assignments.studentapi;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

@@ -7,8 +7,8 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.rohan.springboot.assignments.studentjpa.Student;
-import com.rohan.springboot.assignments.studentjpa.StudentRepository;
+import com.rohan.springboot.assignments.studentapi.Student;
+import com.rohan.springboot.assignments.studentapi.StudentRepository;
 import com.rohan.springboot.assignments.sumof2nums.SumOf2Nums;
 
 @SpringBootTest

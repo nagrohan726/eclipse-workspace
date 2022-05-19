@@ -1,4 +1,4 @@
-package com.rohan.springboot.assignments.studentjpa;
+package com.rohan.springboot.assignments.studentapi;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
