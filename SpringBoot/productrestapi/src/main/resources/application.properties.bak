@@ -27,3 +27,6 @@ management.endpoints.web.exposure.include=*
 #SECURITY
 spring.security.user.name=rohan
 spring.security.user.password=bolbona
+
+#SWAGGER
+springdoc.swagger-ui.path=/swaggerui
