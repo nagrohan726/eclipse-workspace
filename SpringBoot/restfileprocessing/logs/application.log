@@ -252,3 +252,4 @@ java.nio.file.NoSuchFileException: C:\D-drive\Shared\Uploads\CopiedImage.jpg
 2022-05-25 12:57:31.081  INFO 22304 --- [main] r.s.r.RestfileprocessingApplicationTests : Starting RestfileprocessingApplicationTests using Java 18 on DESKTOP-ENLA5PR with PID 22304 (started by Rohan in C:\Users\Rohan\Documents\eclipse-workspace\SpringBoot\restfileprocessing)
 2022-05-25 12:57:31.082  INFO 22304 --- [main] r.s.r.RestfileprocessingApplicationTests : No active profile set, falling back to 1 default profile: "default"
 2022-05-25 12:57:32.555  INFO 22304 --- [main] r.s.r.RestfileprocessingApplicationTests : Started RestfileprocessingApplicationTests in 1.751 seconds (JVM running for 2.764)
+2022-05-25 13:25:47.729  INFO 28716 --- [RMI TCP Connection(78)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.

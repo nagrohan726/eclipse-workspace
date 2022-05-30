@@ -1,34 +1,114 @@
-2022-05-24 11:34:44.214  INFO 25808 --- [main] c.r.s.ProductrestapiApplicationTests     : Starting ProductrestapiApplicationTests using Java 18 on DESKTOP-ENLA5PR with PID 25808 (started by Rohan in C:\Users\Rohan\Documents\eclipse-workspace\SpringBoot\productrestapi)
-2022-05-24 11:34:44.215  INFO 25808 --- [main] c.r.s.ProductrestapiApplicationTests     : No active profile set, falling back to 1 default profile: "default"
-2022-05-24 11:34:45.039  INFO 25808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-05-24 11:34:45.080  INFO 25808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
-2022-05-24 11:34:45.564  WARN 25808 --- [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+2022-05-30 13:10:09.926  INFO 44132 --- [main] c.r.springweb.ProductrestapiApplication  : Starting ProductrestapiApplication using Java 18 on DESKTOP-ENLA5PR with PID 44132 (C:\Users\Rohan\Documents\eclipse-workspace\SpringBoot\productrestapi\target\classes started by Rohan in C:\Users\Rohan\Documents\eclipse-workspace\SpringBoot\productrestapi)
+2022-05-30 13:10:09.933  INFO 44132 --- [main] c.r.springweb.ProductrestapiApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-30 13:10:11.188  INFO 44132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-30 13:10:11.245  INFO 44132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interfaces.
+2022-05-30 13:10:12.108  WARN 44132 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-05-30 13:10:12.135  INFO 44132 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2022-05-30 13:10:12.135  INFO 44132 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2133 ms
+2022-05-30 13:10:12.542  WARN 44132 --- [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
  --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
-2022-05-24 11:34:45.650  INFO 25808 --- [main] com.hazelcast.system                     : [192.168.164.1]:5701 [dev] [4.2.4] Hazelcast 4.2.4 (20211220 - 25f0049) starting at [192.168.164.1]:5701
-2022-05-24 11:34:45.947  INFO 25808 --- [main] c.h.s.d.integration.DiscoveryService     : [192.168.164.1]:5701 [dev] [4.2.4] No discovery strategy is applicable for auto-detection
-2022-05-24 11:34:46.036  INFO 25808 --- [main] com.hazelcast.instance.impl.Node         : [192.168.164.1]:5701 [dev] [4.2.4] Using Multicast discovery
-2022-05-24 11:34:46.040  WARN 25808 --- [main] com.hazelcast.cp.CPSubsystem             : [192.168.164.1]:5701 [dev] [4.2.4] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
-2022-05-24 11:34:46.280  INFO 25808 --- [main] c.h.internal.diagnostics.Diagnostics     : [192.168.164.1]:5701 [dev] [4.2.4] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
-2022-05-24 11:34:46.284  INFO 25808 --- [main] com.hazelcast.core.LifecycleService      : [192.168.164.1]:5701 [dev] [4.2.4] [192.168.164.1]:5701 is STARTING
-2022-05-24 11:34:48.539  INFO 25808 --- [main] c.h.internal.cluster.ClusterService      : [192.168.164.1]:5701 [dev] [4.2.4] 
+2022-05-30 13:10:12.719  INFO 44132 --- [main] com.hazelcast.system                     : [192.168.164.1]:5701 [dev] [4.2.4] Hazelcast 4.2.4 (20211220 - 25f0049) starting at [192.168.164.1]:5701
+2022-05-30 13:10:13.669  INFO 44132 --- [main] c.h.s.d.integration.DiscoveryService     : [192.168.164.1]:5701 [dev] [4.2.4] No discovery strategy is applicable for auto-detection
+2022-05-30 13:10:13.835  INFO 44132 --- [main] com.hazelcast.instance.impl.Node         : [192.168.164.1]:5701 [dev] [4.2.4] Using Multicast discovery
+2022-05-30 13:10:13.842  WARN 44132 --- [main] com.hazelcast.cp.CPSubsystem             : [192.168.164.1]:5701 [dev] [4.2.4] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
+2022-05-30 13:10:14.256  INFO 44132 --- [main] c.h.internal.diagnostics.Diagnostics     : [192.168.164.1]:5701 [dev] [4.2.4] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2022-05-30 13:10:14.262  INFO 44132 --- [main] com.hazelcast.core.LifecycleService      : [192.168.164.1]:5701 [dev] [4.2.4] [192.168.164.1]:5701 is STARTING
+2022-05-30 13:10:16.650  INFO 44132 --- [main] c.h.internal.cluster.ClusterService      : [192.168.164.1]:5701 [dev] [4.2.4] 
 
 Members {size:1, ver:1} [
-	Member [192.168.164.1]:5701 - a8a1dfb8-3de4-43b2-91d0-332c031bcb56 this
+	Member [192.168.164.1]:5701 - 15233766-b72b-41de-9407-40ce15946f07 this
 ]
 
-2022-05-24 11:34:48.553  INFO 25808 --- [main] com.hazelcast.core.LifecycleService      : [192.168.164.1]:5701 [dev] [4.2.4] [192.168.164.1]:5701 is STARTED
-2022-05-24 11:34:48.810  INFO 25808 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-05-24 11:34:49.092  INFO 25808 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-05-24 11:34:49.154  INFO 25808 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-05-24 11:34:49.206  INFO 25808 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
-2022-05-24 11:34:49.430  INFO 25808 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-05-24 11:34:49.555  INFO 25808 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2022-05-24 11:34:49.947  INFO 25808 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-05-24 11:34:49.954  INFO 25808 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-05-24 11:34:50.482  WARN 25808 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-05-24 11:34:51.559  INFO 25808 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-2022-05-24 11:34:51.595  INFO 25808 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
-2022-05-24 11:34:51.705  INFO 25808 --- [main] c.r.s.ProductrestapiApplicationTests     : Started ProductrestapiApplicationTests in 7.729 seconds (JVM running for 8.861)
-2022-05-24 11:34:52.012  INFO 25808 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-05-24 11:34:52.015  INFO 25808 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-05-24 11:34:52.027  INFO 25808 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-30 13:10:16.664  INFO 44132 --- [main] com.hazelcast.core.LifecycleService      : [192.168.164.1]:5701 [dev] [4.2.4] [192.168.164.1]:5701 is STARTED
+2022-05-30 13:10:16.798  INFO 44132 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-30 13:10:17.155  INFO 44132 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-30 13:10:17.225  INFO 44132 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-30 13:10:17.338  INFO 44132 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-05-30 13:10:17.637  INFO 44132 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-30 13:10:17.888  INFO 44132 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-30 13:10:19.023  INFO 44132 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-30 13:10:19.043  INFO 44132 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-30 13:10:19.690  WARN 44132 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-30 13:10:21.142  INFO 44132 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-05-30 13:10:21.195  INFO 44132 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-05-30 13:10:21.406  INFO 44132 --- [main] io.undertow                              : starting server: Undertow - 2.2.16.Final
+2022-05-30 13:10:21.421  INFO 44132 --- [main] org.xnio                                 : XNIO version 3.8.6.Final
+2022-05-30 13:10:21.441  INFO 44132 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.6.Final
+2022-05-30 13:10:21.497  INFO 44132 --- [main] org.jboss.threads                        : JBoss Threads version 3.1.0.Final
+2022-05-30 13:10:21.580  INFO 44132 --- [main] io.undertow                              : stopping server: Undertow - 2.2.16.Final
+2022-05-30 13:10:21.584  WARN 44132 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-05-30 13:10:21.587  INFO 44132 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-30 13:10:21.591  INFO 44132 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-30 13:10:21.608  INFO 44132 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-30 13:10:21.609  INFO 44132 --- [main] com.hazelcast.core.LifecycleService      : [192.168.164.1]:5701 [dev] [4.2.4] [192.168.164.1]:5701 is SHUTTING_DOWN
+2022-05-30 13:10:21.618  INFO 44132 --- [main] com.hazelcast.instance.impl.Node         : [192.168.164.1]:5701 [dev] [4.2.4] Shutting down multicast service...
+2022-05-30 13:10:21.620  INFO 44132 --- [main] com.hazelcast.instance.impl.Node         : [192.168.164.1]:5701 [dev] [4.2.4] Shutting down connection manager...
+2022-05-30 13:10:21.624  INFO 44132 --- [main] com.hazelcast.instance.impl.Node         : [192.168.164.1]:5701 [dev] [4.2.4] Shutting down node engine...
+2022-05-30 13:10:21.634  INFO 44132 --- [main] c.hazelcast.instance.impl.NodeExtension  : [192.168.164.1]:5701 [dev] [4.2.4] Destroying node NodeExtension.
+2022-05-30 13:10:21.635  INFO 44132 --- [main] com.hazelcast.instance.impl.Node         : [192.168.164.1]:5701 [dev] [4.2.4] Hazelcast Shutdown is completed in 20 ms.
+2022-05-30 13:10:21.636  INFO 44132 --- [main] com.hazelcast.core.LifecycleService      : [192.168.164.1]:5701 [dev] [4.2.4] [192.168.164.1]:5701 is SHUTDOWN
+2022-05-30 13:10:21.670  INFO 44132 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-30 13:10:21.722 ERROR 44132 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-05-30 13:10:54.169  INFO 42680 --- [main] c.r.springweb.ProductrestapiApplication  : Starting ProductrestapiApplication using Java 18 on DESKTOP-ENLA5PR with PID 42680 (C:\Users\Rohan\Documents\eclipse-workspace\SpringBoot\productrestapi\target\classes started by Rohan in C:\Users\Rohan\Documents\eclipse-workspace\SpringBoot\productrestapi)
+2022-05-30 13:10:54.171  INFO 42680 --- [main] c.r.springweb.ProductrestapiApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-30 13:10:55.124  INFO 42680 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-30 13:10:55.168  INFO 42680 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2022-05-30 13:10:55.746  WARN 42680 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-05-30 13:10:55.766  INFO 42680 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2022-05-30 13:10:55.766  INFO 42680 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1549 ms
+2022-05-30 13:10:56.021  WARN 42680 --- [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+2022-05-30 13:10:56.110  INFO 42680 --- [main] com.hazelcast.system                     : [192.168.164.1]:5701 [dev] [4.2.4] Hazelcast 4.2.4 (20211220 - 25f0049) starting at [192.168.164.1]:5701
+2022-05-30 13:10:56.423  INFO 42680 --- [main] c.h.s.d.integration.DiscoveryService     : [192.168.164.1]:5701 [dev] [4.2.4] No discovery strategy is applicable for auto-detection
+2022-05-30 13:10:56.527  INFO 42680 --- [main] com.hazelcast.instance.impl.Node         : [192.168.164.1]:5701 [dev] [4.2.4] Using Multicast discovery
+2022-05-30 13:10:56.532  WARN 42680 --- [main] com.hazelcast.cp.CPSubsystem             : [192.168.164.1]:5701 [dev] [4.2.4] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
+2022-05-30 13:10:56.760  INFO 42680 --- [main] c.h.internal.diagnostics.Diagnostics     : [192.168.164.1]:5701 [dev] [4.2.4] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2022-05-30 13:10:56.764  INFO 42680 --- [main] com.hazelcast.core.LifecycleService      : [192.168.164.1]:5701 [dev] [4.2.4] [192.168.164.1]:5701 is STARTING
+2022-05-30 13:10:58.686  INFO 42680 --- [main] c.h.internal.cluster.ClusterService      : [192.168.164.1]:5701 [dev] [4.2.4] 
+
+Members {size:1, ver:1} [
+	Member [192.168.164.1]:5701 - e775aab6-63af-476a-b743-34f528e74f0b this
+]
+
+2022-05-30 13:10:58.706  INFO 42680 --- [main] com.hazelcast.core.LifecycleService      : [192.168.164.1]:5701 [dev] [4.2.4] [192.168.164.1]:5701 is STARTED
+2022-05-30 13:10:58.938  INFO 42680 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-30 13:10:59.358  INFO 42680 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-30 13:10:59.462  INFO 42680 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-30 13:10:59.598  INFO 42680 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-05-30 13:11:00.002  INFO 42680 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-30 13:11:00.325  INFO 42680 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-30 13:11:01.537  INFO 42680 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-30 13:11:01.559  INFO 42680 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-30 13:11:02.202  WARN 42680 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-30 13:11:03.718  INFO 42680 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-05-30 13:11:03.775  INFO 42680 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-05-30 13:11:03.991  INFO 42680 --- [main] io.undertow                              : starting server: Undertow - 2.2.16.Final
+2022-05-30 13:11:04.007  INFO 42680 --- [main] org.xnio                                 : XNIO version 3.8.6.Final
+2022-05-30 13:11:04.024  INFO 42680 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.6.Final
+2022-05-30 13:11:04.047  INFO 42680 --- [RMI TCP Connection(3)-127.0.0.1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-30 13:11:04.048  INFO 42680 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-30 13:11:04.052  INFO 42680 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-05-30 13:11:04.109  INFO 42680 --- [main] org.jboss.threads                        : JBoss Threads version 3.1.0.Final
+2022-05-30 13:11:04.222  INFO 42680 --- [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8080 (http) with context path '/productapi'
+2022-05-30 13:11:04.228  INFO 42680 --- [main] c.r.springweb.ProductrestapiApplication  : Started ProductrestapiApplication in 10.507 seconds (JVM running for 13.476)
+2022-05-30 13:11:34.268  INFO 42680 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-05-30 13:11:34.272  INFO 42680 --- [RMI TCP Connection(9)-127.0.0.1] io.undertow                              : stopping server: Undertow - 2.2.16.Final
+2022-05-30 13:11:34.275  INFO 42680 --- [RMI TCP Connection(9)-127.0.0.1] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-05-30 13:11:34.280  INFO 42680 --- [RMI TCP Connection(9)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-30 13:11:34.283  INFO 42680 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-30 13:11:34.293  INFO 42680 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
